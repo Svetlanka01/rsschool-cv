@@ -27,20 +27,20 @@ During my academic studies, I did data processing: manipulating data, generalisi
 1. **Scientific research Institute of mechanical engineering BMSTU** <br>
 Moscow – Engineer (01.2018 – 06.2020)
 Thin-film thermoelectric generator development
-* Device design development
-* Calculation of output power and efficiency
-* Laser operation mode selection
-* Study of the surface morphology of semiconductor layers
+    * Device design development
+    * Calculation of output power and efficiency
+    * Laser operation mode selection
+    * Study of the surface morphology of semiconductor layers
 2. **Schlumberger** <br>
 Tyumen – Engineer (summer immersion) (06.2019 – 09.2019)
-* Strength calculation of the pump stage    
-* Development of pump equipment design
+    * Strength calculation of the pump stage    
+    * Development of pump equipment design
 
 3. **PVD.Spark (startup)** <br>
 Moscow – Engineer (11.2017 – 05.2018)
-* Working with clients
-* Laser operation mode selection
-* Research using excimer laser, microscopes and ellipsometers
+    * Working with clients
+    * Laser operation mode selection
+    * Research using excimer laser, microscopes and ellipsometers
 
 ### Code example
 ** Task:** Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
