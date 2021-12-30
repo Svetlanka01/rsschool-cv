@@ -1,7 +1,7 @@
 # Svetlana Ponomarenko
 25 y.o. <br>
 Moscow, Russian Federdation <br>
-Front-end developer <br>
+Junior Front-end developer <br>
 +7 (916) 637 18 62 <br>
 ponomarenko_sv96@mail.ru<br>
 ***
