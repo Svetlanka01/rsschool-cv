@@ -28,6 +28,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
+
   .footer{
     border: 5px solid rgb(169, 76, 206);
   }
@@ -70,7 +71,14 @@
   }
 
   .section-title {
-      color:rgb(169, 76, 206);
-      font: 700;
-      font-family: sans-serif;
+      color:rgb(58, 55, 52);
+      font: 100;
+      font-family: 'Roboto', sans-serif;
+  }
+
+    .name-title{
+      color:rgb(129, 59, 59);
+      font-family: 'Montserrat';
+      font-weight: 900;
+      font-size: 100px;
   }
