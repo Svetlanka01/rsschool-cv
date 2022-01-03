@@ -15,7 +15,13 @@
   }
 
   .header {
-    border: 5px solid red
+    background-color: rgb(111, 144, 75);
+    text-align: center;
+    font-size: large;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    color: #f5e4ec;
+    
   }
 
   .body{
@@ -42,32 +48,31 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
   }
 
   html {
     scroll-behavior: smooth; 
   }
 
-  .nav-list {
+  .skills-list{
     list-style: none;
+    align-items: left;
   }
 
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
-  }
-
-  .nav-link {
     transition: .3s;
   }
 
-  .section-item a {
-    color: #829985;
+  .nav-link {
+    color: #ffffff;
     text-decoration: none;  
     transition: color 0.5s;
   }
-  .section-item a:hover {
-    color: #4d2323;
+  .nav-item:hover {
+    transform: scale(1.4);
   }
 
   .section-title {
@@ -81,4 +86,45 @@
       font-family: 'Montserrat';
       font-weight: 900;
       font-size: 100px;
+  }
+
+  .container_side { 
+    width: 230px; 
+    background: #06b9b9; 
+    }
+    
+   .container_center {
+    left: 250px; 
+    right: 0; 
+   } 
+
+   .container_side { 
+    position:absolute;  
+    padding: 10px; 
+    top: 61px; 
+    bottom: 0; 
+   }
+
+   .container_center { 
+    position:absolute; 
+    overflow: auto; 
+    padding: 10px; 
+    top: 61px; 
+    bottom: 0; 
+   }
+
+   .nav-item {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .nav-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
   }

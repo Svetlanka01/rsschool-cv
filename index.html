@@ -40,95 +40,114 @@
 
     <main>
         <div class="container">
-                
-            <section class="section" id="Profile">
-                <h1 class="name-title">Svetlana <br> Ponomarenko</h1>
+            <div class="container_side">
                 <img src="./assets/img/my_photo_cv.jpg" alt="my photo" width="230px" height="280px">
-            </section>
+                
+                <section class="section" id="Contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <div>ponomarenko_sv9@mail.ru <br>
+                        +7(916)637-18-62<br>
+                        GitHub: Svetlanka01
+                    </div>
 
-            <section class="section" id="Contacts">
-                <h2 class="section-title">Contacts</h2>
-            </section>
-
-            <section class="section" id="Summary">
-                <h2 class="section-title">Summary</h2>
-                <p>
-                    During my academic studies, 
-                    I did data processing: manipulating data, generalising it, representing 
-                    it in  graphs using Python.  <br> Currently, I want to switch to commercial work, 
-                    and be closer to the user: making their lives more convenient with user-friendly websites. 
-                </p>
-            </section>
-
-            <section class="section" id="Skills">
-                <h2 class="section-title">Skills</h2>
-                <ul>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git/GitHub</li>
-                    <li>Figma</li>
-                </ul>
-            </section>
-
-            <section class="section" id="Code">
-                <h2 class="section-title">Code</h2>
-                <span>** Task:** Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
-                    ```
-                    def digital_root(n):
-                        stroka = str(n)
-                        if len(stroka)<=1:
-                            print(stroka)
-                            return(int(stroka))
-                        else:
-                            if len(stroka)>1:
-                                summa = 0
-                                for i in range(0, len(stroka)):
-                                    summa += int(stroka[i])
-                        stroka = summa
-                    
-                        return(digital_root(stroka)) 
-                    ```</span>
-            </section>
-
-            <section class="section" id="Courses">
-                <h2 class="section-title">Courses</h2>
-                <p>**RSS School** 
-                    * Stage 0, JavaScript/Front-end</p>
                 </section>
 
-            <section class="section" id="Projects">
-                <h2 class="section-title">Projects</h2>
-                <p>Nothing to add yet</p>
-            </section>
+                <section class="section" id="Skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git/GitHub</li>
+                        <li>Figma</li>
+                    </ul>
+                </section>
 
-            <section class="section" id="Education">
-                <h2 class="section-title">Education</h2>
-                <ul>
-                    <li>
-                        1. **Skolkovo Institute of Science and Technology**, Russian Federation
-                        * MSc, 09.04.02 Information Systems and Technologies, 2020 - 2022
-                    </li>
-                    <li>
-                       2. **Bauman Moscow State Technical University**, Russian Federation
-                       * Specialist degree, 15.05.01 Designing of technological machines and complexes, 2014 - 2020
-                    </li>
-                </ul>
-            </section>
 
-            <section class="section" id="English">
-                <h2 class="section-title">Languages</h2>
-                <ul>
-                    <li>Russian - Native</li>
-                    <li>
-                        **English** B1
-                            * I speak and write English quite fluently as my university studies are in English. I also spent three months in Germany on an academic mobility programme where communication was exclusively in English.
+                <section class="section" id="Courses">
+                    <h2 class="section-title">Courses</h2>
+                    <p><span font-weight:bold>RSS School</span>
+                        <li>Stage 0, JavaScript/Front-end</li></p>
+                </section>
+            </div>
+
+            <section class="container_center">
+
+                <section class="section" id="Profile">
+                    <h1 class="name-title">Svetlana <br> Ponomarenko</h1>
+                    
+                </section>
+
+                <section class="section" id="Summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p>
+                        During my academic studies, 
+                        I did data processing: manipulating data, generalising it, representing 
+                        it in  graphs using Python.  <br> Currently, I want to switch to commercial work, 
+                        and be closer to the user: making their lives more convenient with user-friendly websites. 
+                    </p>
+                </section>
+
+            
+
+                <section class="section" id="Code">
+                    <h2 class="section-title">Code</h2>
+                    <b>Task:</b> Given n, take the sum of the digits of n. 
+                    If that value has more than one digit, continue reducing in this way until a single-digit 
+                    number is produced. The input will be a non-negative integer.
+                    <pre>
+                        <code>
+                            def digital_root(n):
+                                stroka = str(n)
+                                if len(stroka)<=1:
+                                    print(stroka)
+                                    return(int(stroka))
+                                else:
+                                    if len(stroka)>1:
+                                        summa = 0
+                                        for i in range(0, len(stroka)):
+                                            summa += int(stroka[i])
+                                stroka = summa
+                            
+                                return(digital_root(stroka)) 
+                        </code>
+                    </pre>
+                </section>
+
+
+                <section class="section" id="Projects">
+                    <h2 class="section-title">Projects</h2>
+                    <p>Nothing to add yet</p>
+                </section>
+
+                <section class="section" id="Education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>
+                            1. <b>Skolkovo Institute of Science and Technology</b>, Russian Federation
+                            <li>MSc, 09.04.02 Information Systems and Technologies, 2020 - 2022</li>
                         </li>
-                    <li>**Deutsch** A1</li>
-                </ul>
-            </section>
+                        <li>
+                        2. <b>Bauman Moscow State Technical University</b>, Russian Federation
+                        <li>Specialist degree, 15.05.01 Designing of technological machines and complexes, 
+                            2014 - 2020</li>
+                        </li>
+                    </ul>
+                </section>
 
+                <section class="section" id="English">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li><b>Russian</b> - Native</li>
+                        <li><b>English</b> B1</li>
+                                <li>I speak and write English quite fluently as my university studies are in English. 
+                                    I also spent three months in Germany on an academic mobility programme where 
+                                    communication was exclusively in English.</li>
+                        <li><b>Deutsch</b> - A1</li>
+                    </ul>
+                </section>
+            </section>
         </div>
     </main>
 
