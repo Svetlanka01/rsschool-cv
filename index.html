@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<header class = "header">
+
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="side_bar">
+                <img src="./assets/img/my_photo_cv.jpg" alt="my photo" width="320px">
+                
+                <section class="section" id="Contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <div>ponomarenko_sv96@mail.ru <br>
+                        +7(916)637-18-62<br>
+                        GitHub: Svetlanka01
+                    </div>
+
+                </section>
+
+                <section class="section" id="Skills">
+                    <h2 class="section-title">Skills</h2>
+                    Python<br>
+                    HTML<br>
+                    CSS<br>
+                    JavaScript<br>
+                    Git/GitHub<br>
+                    Figma<br>
+                </section>
+
+
+                <section class="section" id="Courses">
+                    <h2 class="section-title">Courses</h2>
+                    <div>
+                        <b>RSS School</b>
+                        Stage 0, JavaScript/<br>Front-end
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="main_info">
+                <section class="section" id="Profile">
+                    <span class="name-title">Svetlana <br> Ponomarenko</span>
+                    
+                </section>
+
+                <section class="section" id="Summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p>
+                        During my academic studies, 
+                        I did data processing: manipulating data, generalising it, representing 
+                        it in  graphs using Python.
+                    </p>
+                    <p> Currently I want to switch to commercial work, 
+                        and be closer to the user: making their lives more convenient with user-friendly websites. 
+                    </p>
+                </section>
+
+                <section class="section" id="Projects">
+                    <h2 class="section-title">Projects</h2>
+                    <div><i class="code_font">Will be updated soon...</i></div>
+                </section>
+
+
+                <section class="section" id="Code">
+                    <h2 class="section-title">Code</h2>
+                    <b>Task:</b> Given n, take the sum of the digits of n. 
+                    If that value has more than one digit, continue reducing in this way until a single-digit 
+                    number is produced. The input will be a non-negative integer.
+                    <pre>
+                        <code class="code_font">
+                            def digital_root(n):
+                                stroka = str(n)
+                                if len(stroka)<=1:
+                                    print(stroka)
+                                    return(int(stroka))
+                                else:
+                                    if len(stroka)>1:
+                                        summa = 0
+                                        for i in range(0, len(stroka)):
+                                            summa += int(stroka[i])
+                                stroka = summa
+                            
+                                return(digital_root(stroka)) 
+                        </code>
+                    </pre>
+                </section>
+
+
+
+
+                <section class="section" id="Education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>
+                            1. <b>Skolkovo Institute of Science and Technology</b>, Russian Federation<br>
+                                MSc, 09.04.02 Information Systems and Technologies, 2020 - 2022
+                        </li>
+                        <li>
+                            2. <b>Bauman Moscow State Technical University</b>, Russian Federation<br>
+                            Specialist degree, 15.05.01 Designing of technological machines and complexes, 
+                            2014 - 2020
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section" id="Projects">
+                    <h2 class="section-title">Projects</h2>
+                    <div>Nothing to add yet</div>
+                </section>
+
+                <section class="section" id="English">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li><b>Russian</b> - Native</li>
+                        <li><b>English</b> B1</li>
+                                <li>I speak and write English quite fluently as my university studies are in English. 
+                                    I also spent three months in Germany on an academic mobility programme where 
+                                    communication was exclusively in English.</li>
+                        <li><b>Deutsch</b> - A1</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="table">
+                <div class="table__cell">
+                    <a href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.svg" alt="RS school" width="200px"></a>
+                </div>
+            </div>
+
+            <h2 class="section-title">
+                2022
+            </h2>
+
+
+            <div class="table">
+                <div class="table__cell">
+                    <a href="https://github.com/Svetlanka01"><img src="./assets/svg/github_icon.svg" alt="GitHub" width="100px"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html> 
+
