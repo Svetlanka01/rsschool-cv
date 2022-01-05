@@ -141,15 +141,43 @@ html {
 	flex-direction: column;
 }
 
+
 #grad {
 	background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(94, 94, 94));
   }
+
+  .contacts_li1 {
+	background:url('./assets/svg/location.svg') 0.00005% no-repeat;
+	background-size: 20px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+ }
+
+ .contacts_li2 {
+	background:url('./assets/svg/email.svg') 0.00005% no-repeat;
+	background-size: 20px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+ }
+
+ .contacts_li3 {
+	 background:url('./assets/svg/telephone.svg') 0.00005% no-repeat;
+	 background-size: 20px;
+	 padding-left: 5px;
+	 padding-bottom: 20px;
+ }
+
+ .contacts_li4 {
+	background:url('./assets/svg/github.svg') 0.00005% no-repeat;
+	background-size: 20px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+ }
 
 .skills_list{
 	line-height: 36px;
 	font-size: 16px;
 	display: flex;
-	/* list-style: url('./assets/svg/rocket.svg') ; */
 	flex-direction: column;
 	padding: 8px 0px 10px 15px;
 }
@@ -165,10 +193,12 @@ html {
 }
 
 .contact_list{
-	line-height: 23px;
+	display: flex;
+	flex-direction: column;
+	line-height: 30px;
 	font-size: 16px;
 	border-bottom: 1px solid rgb(251, 249, 249);
-	padding: 8px 0px 10px 15px;
+	padding: 10ipx;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: rgb(251, 249, 249);
@@ -193,6 +223,16 @@ html {
 	border: 10px;
 	padding: 28px 30px 8px 25px;
 	
+}
+
+.side-title{
+	display: block;
+	padding: 25px 0px 4px 10px;
+	/* line-height: 40px; */
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(228, 227, 227);
+    font-family: 'Roboto', sans-serif;
 }
 
 .my_position{
