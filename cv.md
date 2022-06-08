@@ -1,5 +1,5 @@
 # Svetlana Ponomarenko
-25 y.o. <br>
+26 y.o. <br>
 Moscow, Russian Federdation <br>
 Junior Front-end developer <br>
 +7 (916) 637 18 62 <br>
@@ -24,19 +24,24 @@ During my academic studies, I did data processing: manipulating data, generalisi
      * Stage 0, JavaScript/Front-end
 
 ### Experience
-1. **Scientific research Institute of mechanical engineering BMSTU** <br>
+1. **Karlsruhe Institute of Technology** <br>
+Karlsruhe (Germany) - Scientific assistant (11.2021-02.2022)
+    * Surface area measurements with adsorption measurements
+    * SEM image processing
+    * EDX analysing
+2. **Scientific research Institute of mechanical engineering BMSTU** <br>
 Moscow – Engineer (01.2018 – 06.2020)
 Thin-film thermoelectric generator development
     * Device design development
     * Calculation of output power and efficiency
     * Laser operation mode selection
     * Study of the surface morphology of semiconductor layers
-2. **Schlumberger** <br>
+3. **Schlumberger** <br>
 Tyumen – Engineer (summer immersion) (06.2019 – 09.2019)
     * Strength calculation of the pump stage    
     * Development of pump equipment design
 
-3. **PVD.Spark (startup)** <br>
+4. **PVD.Spark (startup)** <br>
 Moscow – Engineer (11.2017 – 05.2018)
     * Working with clients
     * Laser operation mode selection
@@ -62,5 +67,5 @@ def digital_root(n):
 ### Languages
 * **Russian** native
 * **English** B1
-    * I speak and write English quite fluently as my university studies are in English. I also spent three months in Germany on an academic mobility programme where communication was exclusively in English.
+    * I speak and write English quite fluently as my university studies are in English. I also have spent three months in Germany on an academic mobility programme where communication was exclusively in English.
 * **Deutsch** A1
